@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --input-type=module --eval \"import { Server } from ''@modelcontextprotocol/sdk/server/index.js''; import { StdioServerTransport } from ''@modelcontextprotocol/sdk/server/stdio.js''; import { ListResourcesRequestSchema, CallToolRequestSchema, GetPromptRequestSchema } from ''@modelcontextprotocol/sdk/types.js''; console.log\\(''imports ok''\\);\")"
+    ]
+  }
+}
